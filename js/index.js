@@ -21,6 +21,7 @@ function ingresarAutos(){
         ingreso.toLocaleDateString()
         autos.push(new Auto(nombre,placa,ingreso))
         console.table(autos)
+        autosIngresados = autosIngresados + 1
     }
 }
 
